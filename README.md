@@ -56,7 +56,7 @@ git clone https://github.com/FaresCodeDev/ToDoList_ifa22.git
 Pullen der neuesten Änderungen:
 git pull
 
-Committen von Änderungen:
+**Committen von Änderungen:
 git add .
 git commit -m "Commit-Nachricht"
 
