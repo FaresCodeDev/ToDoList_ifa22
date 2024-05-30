@@ -10,11 +10,7 @@ sudo nano /etc/dhcpcd.conf
 Fügen Sie folgende Zeilen am Ende der Datei hinzu, um eine statische IP-Adresse zu konfigurieren:
 ```
 interface eth0
-```
-```
 static ip_address=192.168.24.132
-```
-```
 static routers=192.168.1.1
 ```
 ```
@@ -30,6 +26,8 @@ sudo adduser willi
 Erstellen Sie den Benutzer "fernzugriff" mit sudo-Rechten:
 ```
 sudo adduser fernzugriff
+```
+```
 sudo usermod -aG sudo fernzugriff
 ```
 
@@ -37,6 +35,8 @@ sudo usermod -aG sudo fernzugriff
 Installieren Sie den SSH-Server:
 ```
 sudo apt-get update
+```
+```
 sudo apt-get install openssh-server
 ```
 
@@ -55,6 +55,8 @@ sudo systemctl restart sshd
 Installieren Sie Docker und Docker Compose:
 ```
 sudo apt-get update
+```
+```
 sudo apt-get install docker.io docker-compose
 ```
 
