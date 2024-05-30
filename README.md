@@ -88,7 +88,9 @@ git pull
 ```
 Committen von Änderungen:
 ```
-git add .
+git add
+```
+```
 git commit -m "Commit-Nachricht"
 ```
 Pushen von Änderungen:
