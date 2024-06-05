@@ -17,7 +17,7 @@ static routers=192.168.1.1
 static domain_name_servers=5000
 ```
 
-**Benutzer erstellen**
+# Benutzer erstellen
 Erstellen Sie den Benutzer "willi" ohne Administratorrechte:
 
 ```
@@ -31,7 +31,7 @@ sudo adduser fernzugriff
 sudo usermod -aG sudo fernzugriff
 ```
 
-**SSH-Dienst einrichten**
+# SSH-Dienst einrichten
 Installieren Sie den SSH-Server:
 ```
 sudo apt-get update
@@ -51,7 +51,7 @@ Starten Sie den SSH-Dienst neu:
 sudo systemctl restart sshd
 ```
 
-**Docker installieren**
+# Docker installieren
 Installieren Sie Docker und Docker Compose:
 ```
 sudo apt-get update
@@ -60,7 +60,7 @@ sudo apt-get update
 sudo apt-get install docker.io docker-compose
 ```
 
-**Web-App deployen**
+# Web-App deployen
 Klonen Sie das Git-Repository mit der Web-App:
 ```
 git clone https://github.com/FaresCodeDev/ToDoList_ifa22.git
@@ -76,8 +76,7 @@ sudo docker-compose up -d
 ```
 Die Web-App ist nun unter http://192.168.24.132:5000 erreichbar.
 
-**Git-Befehle**
-
+# Git-Befehle
 Klonen des Repositories:
 ```
 git clone https://github.com/FaresCodeDev/ToDoList_ifa22.git
