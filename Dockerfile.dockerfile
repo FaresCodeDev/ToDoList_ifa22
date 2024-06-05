@@ -14,7 +14,7 @@ WORKDIR /app
 RUN pip install flask
 
 # Kopiere lokale Datei in das Container-Image
-COPY ToDoListApi.py /app
+COPY ToDoList.py /app
 
 # Konfiguriere den Befehl, der im Container ausgeführt werden soll 
 # (Anwendung Python + Skriptname als Parameter)
