@@ -19,4 +19,4 @@ COPY ToDoListApi.py /app
 # Konfiguriere den Befehl, der im Container ausgeführt werden soll 
 # (Anwendung Python + Skriptname als Parameter)
 ENTRYPOINT [ "python" ]
-CMD ["ToDoListApi.py" ]
+CMD ["ToDoList.py" ]
